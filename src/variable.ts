@@ -10,3 +10,7 @@ console.log(age);
 console.log(isActive);
 console.log(all);
 
+// union types
+let phone: string | number;
+phone = "08231241241";
+phone = 08123123124;
