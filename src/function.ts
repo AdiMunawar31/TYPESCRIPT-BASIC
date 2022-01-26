@@ -11,7 +11,7 @@ function getAge(): number {
 
 function printName(): void {
     console.log("Print Name");
-    
+
 }
 
 console.log(getName("Adi Munawar"));
@@ -37,7 +37,7 @@ console.log(fullName("D2Y", "CHANNEL"));
  *  Optional parameter tidak bisa di implementasikan pada type data number
  */
 const getNames = (first?: string, last?: string): string => {
-    return first + last;
+    return `${first}-${last}`;
 }
 
-console.log(getNames("Adi"));
+console.log(getNames("Adi", "Mun"));
